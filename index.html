@@ -2,40 +2,62 @@
 <html>
 
 <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>autumnalis</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>autumnalis</title>
 
-    <!-- Compiled and minified CSS -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+  <!-- Compiled and minified CSS -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
 
-    <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="style.css">
 
 </head>
 
-<body>
-    <div class="navbar-fixed nav-wrapper col s12 m6 offset-m3">
-        <nav class="color-navbar green" onclick="window.scrollTo(0,0,50,500)">
-            <a href="#" class="brand-logo center"><b> Autumnalis </b></a>
+<body background="espacio.jpg">
+
+  <!-- NAVBAR -->
+
+  <nav class="color-navbar">
+    <div class="color-navbar">
+      <div class="nav-wrapper color-navbar">
+        <div class="color-navbar">
+          <a href="#" class="brand-logo center">Logo</a>
+        </div>
+      </div>
+    </div>
+  </nav>
+
+
+
+
+  <div class="nav-wrapper color-navbar">
+    <div class="deep-purple darken-4 color-navbar">
+      <div class="col s12 m6 offset-m3">
+
+        <nav onclick="window.scrollTo(0,0,50,500)">
+          <a href="#" class="brand-logo center"><b> Autumnalis </b></a>
 
         </nav>
+      </div>
     </div>
-</body>
+  </div>
 
-<div class="app ">
-    <div class="row ">
-      <div class="col s12 m6 ">
-        <div class="card" class="card_backgound">
-          <div class="card-image">
-          </div>
-          <div class="card-content card_backgound">
-            <p><b>White Flower</b></p>
-            <br> </br>
-            <p class="tamanio_texto_logo1">
-              Found in San Juan de los Terrero, Pulpí, Almería.
-            </p>
+  <div class="row padding">
+    <div class="col s12 m6">
+      <div class="card deep-purple darken-4 padding ">
+        <div class="card-image">
+          <img src="Dimension.jpg">
+          <span class="card-title">
+            <div class="card-title-color"><b>Card Title</b></div>
+          </span>
+        </div>
+        <div class="card-content">
+          <div class="card-text">
+            <p>I am a very simple card. I am good at containing small bits of information.
+              I am convenient because I require little markup to use effectively.</p>
           </div>
           <div class="card-action">
+            <a href="#">This is a link</a>
           </div>
         </div>
       </div>
@@ -43,5 +65,15 @@
   </div>
 
 
+  <div id="subir" class="fixed-action-btn" inclick="$(window).scrollTop;">
+    <a class="btn-floating btn-large white">
+      <i class="large material-icons">^</i>
+    </a>
+  </div>
+
+
+
+
+</body>
 
 </html>
