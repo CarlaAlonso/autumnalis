@@ -3,53 +3,35 @@
 @import url('https://fonts.googleapis.com/css?family=Merriweather:400,700');
 
 body {
-    /*
-  background: #649173;  /* fallback for old browsers 
-  background: -webkit-linear-gradient(to right, #DBD5A4, #649173);  /* Chrome 10-25, Safari 5.1-6 
-  background: linear-gradient(to right, #DBD5A4, #649173); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ 
-
-background-color: ;
-*/
   font-family: "Open Sans", sans-serif;
   font-size: 18px;
   margin: 0;
-  /*color: #444;*/
+/*
+  background-image: "espacio2.jpg";
+  background-attachment: fixed;/*para que sea estático
+  background-position: top right;/*arriba a la derecha
+  background-repeat: no-repeat;/*que no se repita el fondo
+  */
+
 }
 
 .color-navbar{
-  color: rgba(41, 7, 122, 0.719);
+  background-color: rgba(41, 7, 122, 0.658);
 }
-
-.nav {
-  color: #fff !important;
-  background-color: #7801f2 !important;
-  width: 100% !important;
-  height: 56px !important;
-  line-height: 56px !important;
-}
-
-
-
-
-
 
 .card{
-  color: rgba(44, 0, 148, 0.493) !important;
+  color: rgba(44, 0, 148, 0.493);
 }
 
 .background{
   color: rgba(38, 2, 68, 0.699);
 }
 
-
-
 .padding{
   padding-top: 5%;
   padding-bottom: 5%;
   padding-left: 5%;
   padding-right: 5%;
-
-  /*color: #2b0252ab;*/
 }
 
 .image-padding{
@@ -72,8 +54,8 @@ background-color: ;
 
 .card-title-color{
   color: rgb(102, 2, 124) ;
-  font-size: 25px !important;
-  font-weight: bold !important;
+  font-size: 25px;
+  font-weight: bold;
 }
 
 .card-margin{
@@ -85,4 +67,6 @@ background-color: ;
   color: rgb(255, 255, 255);
 }
 
-
+.morado{
+  background-color: rgba(44, 8, 90, 0.555)
+}
