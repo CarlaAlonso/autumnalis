@@ -6,12 +6,10 @@ body {
   font-family: "Open Sans", sans-serif;
   font-size: 18px;
   margin: 0;
-/*
   background-image: "espacio2.jpg";
-  background-attachment: fixed;/*para que sea estático
-  background-position: top right;/*arriba a la derecha
-  background-repeat: no-repeat;/*que no se repita el fondo
-  */
+  background-attachment: fixed;/*para que sea estático*/
+  /*background-position: top right;/*arriba a la derecha*/
+  /*background-repeat: no-repeat;/*que no se repita el fondo*/
 
 }
 
@@ -67,6 +65,10 @@ body {
   color: rgb(255, 255, 255);
 }
 
-.morado{
+.purple1{
   background-color: rgba(44, 8, 90, 0.555)
+}
+
+.gris{
+  background-color: rgba(143, 141, 140, 0.322);
 }
