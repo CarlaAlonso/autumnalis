@@ -13,14 +13,6 @@ body {
 
 }
 
-.color-navbar{
-  background-color: rgba(41, 7, 122, 0.658);
-}
-
-.card{
-  color: rgba(44, 0, 148, 0.493);
-}
-
 .background{
   color: rgba(38, 2, 68, 0.699);
 }
@@ -32,18 +24,6 @@ body {
   padding-right: 5%;
 }
 
-.image-padding{
-  padding-top: 5%;
-  padding-bottom: 5%;
-  padding-left: 5%;
-  padding-right: 5%;
-}
-
-.title-position{
-  justify-content: center ;
-  align-items: center ;
-  vertical-align: middle ;
-}
 
 .card-panel{
   padding-left: 5% ;
@@ -59,6 +39,7 @@ body {
 .card-margin{
   padding-left: 5% ;
   padding-right: 5% ;
+  padding-top: 2%;
 }
 
 .card-text{
@@ -71,4 +52,10 @@ body {
 
 .gris{
   background-color: rgba(143, 141, 140, 0.322);
+}
+.grey2{
+  background-color: rgba(75, 71, 71, 0.836);
+}
+.link-text{
+  background-color: rgb(255, 106, 0);
 }
