@@ -24,16 +24,20 @@ body {
   padding-right: 5%;
 }
 
-
 .card-panel{
   padding-left: 5% ;
   padding-right: 5% ;
 }
 
-.card-title-color{
-  color: rgb(102, 2, 124) ;
+.card-title{
+  color: rgb(252, 252, 252) ;
   font-size: 25px;
   font-weight: bold;
+
+  padding-left: 5% !important;
+  padding-right: 5% !important;
+  padding-top: 10% !important;
+  padding-bottom: 5% !important;
 }
 
 .card-margin{
@@ -47,7 +51,7 @@ body {
 }
 
 .purple1{
-  background-color: rgba(44, 8, 90, 0.555)
+  background-color: rgba(44, 8, 79, 0.555)
 }
 
 .gris{
