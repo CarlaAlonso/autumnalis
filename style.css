@@ -44,8 +44,12 @@ body {
   color: rgb(255, 255, 255);
 }
 
+.purple0{
+  background-color: rgb(48, 24, 71);
+}
+
 .purple1{
-  background-color: rgba(48, 24, 71, 0.555)
+  background-color: rgba(48, 24, 71, 0.555);
 }
 
 .gris{
