@@ -13,7 +13,7 @@ body {
 }
 
 .background{
-  color: rgba(38, 2, 68, 0.699);
+  color: rgba(38, 2, 68, 0.5);
 }
 
 .padding{
@@ -35,8 +35,8 @@ body {
 }
 
 .card-margin{
-  padding-left: 5%;
-  padding-right: 5%;
+  padding-left: 2.5%;
+  padding-right: 2.5%;
   padding-top: 2.5%;
   padding-bottom: 2.5%;
 }
@@ -50,7 +50,7 @@ body {
 }
 
 .purple1{
-  background-color: rgba(48, 24, 71, 0.575);
+  background-color: rgba(48, 24, 71, 0.336);
 }
 
 .gris{
